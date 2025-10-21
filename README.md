@@ -1,8 +1,10 @@
 **AI-Based Personal Finance Expense Categorizer**
 **Overview**
+
 This project delivers an AI-powered tool for classifying bank transactions into actionable, real-world expense categories—enabling immediate insights from raw statements. Built for Isprava’s Product Manager screening task, the tool combines comprehensive data cleaning, a hybrid semantic rule + AI categorization engine, and modern, interactive dashboard analytics. The solution processes CSVs or bulk-banked data, offers granular tagging, and arms users with visual spending breakdowns for smarter money management.​
 
 **Key Features**
+
 **Robust Transaction Cleaning:** Handles varied formats, parses and corrects narration, and ensures all key fields are present.
 
 **Hybrid Categorization Engine:** Combines rule-based merchant logic with AI-powered MiniLM sentence embeddings for semantic similarity—picking the best-fitting category even for unseen descriptions.
@@ -20,6 +22,7 @@ git clone https://github.com/<your-username>/AI-Expense-Categorizer.git
 cd AI-Expense-Categorizer
 
 **Create and activate a virtual environment**
+
 bash
 python3 -m venv venv
 
@@ -28,16 +31,19 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 **Install dependencies**
+
 bash
 pip install -r requirements.txt
 
 **Add environment variables**
+
 Create a .env file:
 text
 GEMINI_API_KEY=your_gemini_or_openrouter_key_here
 MINILM_MODEL=all-MiniLM-L6-v2
 
 **Run the dashboard**
+
 bash
 streamlit run app.py
 
@@ -45,7 +51,7 @@ streamlit run app.py
 <img width="950" height="442" alt="image" src="https://github.com/user-attachments/assets/9b534ef9-b79a-407f-b96a-35481f07a5ee" />
 
 
-Sample Dataset & Output
+**Sample Dataset & Output**
 Sample-Transactions.csv covers realistic bank entries from various domains (food, travel, shopping, utilities, etc.).
 <img width="952" height="398" alt="image" src="https://github.com/user-attachments/assets/3e3afc2a-adcf-401b-bec5-5426132523b0" />
 
@@ -122,5 +128,6 @@ Multi-tag annotation per transaction
 Clear summary (highest category, visualizations)
 Functional prototype app (Streamlit dashboard)
 Reusable codebase with documented workflow
+
 
 
