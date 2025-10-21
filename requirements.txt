@@ -1,0 +1,23 @@
+# Core
+streamlit>=1.25
+pandas>=1.5
+matplotlib>=3.6
+seaborn>=0.12
+python-dotenv>=1.0
+
+# Lightweight embedding / semantic model (used with all-MiniLM-* SentenceTransformer)
+sentence-transformers>=2.2
+torch>=1.13
+
+# Classic ML & utilities
+scikit-learn>=1.2
+tqdm>=4.64
+
+# LLM / API clients (optional depending on HybridCategorizer implementation)
+openai>=0.27
+
+# Optional / performance (only if you need fast vector search; may require platform-specific install)
+# faiss-cpu>=1.7.4
+
+# Dev / testing (optional)
+pytest>=7.0

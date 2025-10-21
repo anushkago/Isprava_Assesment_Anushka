@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.env-*
+
+# IDE / macOS
+.vscode/
+.idea/
+.DS_Store
+
+# Data / outputs (do NOT commit real data)
+data/
+*.sqlite3
+
+# Others
+*.log
