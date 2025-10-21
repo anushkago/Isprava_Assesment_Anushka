@@ -23,8 +23,8 @@ load_dotenv(dotenv_path=env_path)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 MINILM_MODEL = os.getenv("MINILM_MODEL", "all-MiniLM-L6-v2")
 
-if not GEMINI_API_KEY:
-    st.warning("⚠️ No OpenRouter API key found. Please add it in `.env` as `GEMINI_API_KEY=your_key_here`.")
+# if not GEMINI_API_KEY:
+#     st.warning("⚠️ No OpenRouter API key found. Please add it in `.env` as `GEMINI_API_KEY=your_key_here`.")
 
 # ---------- Sidebar Settings ----------
 st.sidebar.header("Settings")
