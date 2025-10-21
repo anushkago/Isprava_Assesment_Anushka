@@ -22,7 +22,9 @@ cd AI-Expense-Categorizer
 **Create and activate a virtual environment**
 bash
 python3 -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
 
 **Install dependencies**
@@ -120,4 +122,5 @@ Multi-tag annotation per transaction
 Clear summary (highest category, visualizations)
 Functional prototype app (Streamlit dashboard)
 Reusable codebase with documented workflow
+
 
