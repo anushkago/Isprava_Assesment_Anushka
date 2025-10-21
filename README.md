@@ -40,6 +40,7 @@ pip install -r requirements.txt
 Create a .env file:
 text
 GEMINI_API_KEY=your_gemini_or_openrouter_key_here
+
 MINILM_MODEL=all-MiniLM-L6-v2
 
 **Run the dashboard**
@@ -128,6 +129,7 @@ Multi-tag annotation per transaction
 Clear summary (highest category, visualizations)
 Functional prototype app (Streamlit dashboard)
 Reusable codebase with documented workflow
+
 
 
 
